@@ -3,14 +3,14 @@
 
 int main()
 {
-	int ancho, altura, area;
+	float base, altura, area;
 
-	printf("Ancho:");
-	scanf_s("%i", &ancho);
+	printf("Base:");
+	scanf_s("%f", &base);
 	printf("Altura:");
-	scanf_s("%i", &altura);
+	scanf_s("%f", &altura);
 
-	area = ancho * altura;
-	printf("Area: %i", area);
+	area = (base * altura) / 2.0;
+	printf("El area es %.2f", area);
 }
 
