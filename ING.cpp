@@ -3,14 +3,13 @@
 
 int main()
 {
-	float base, altura, area;
+	float radio, pi, area;
 
-	printf("Base:");
-	scanf_s("%f", &base);
-	printf("Altura:");
-	scanf_s("%f", &altura);
+	printf("Radio:");
+	scanf_s("%f", &radio);
 
-	area = (base * altura) / 2.0;
+	pi = 3.14;
+	area = pi * (radio * radio);
 	printf("El area es %.2f", area);
 }
 
